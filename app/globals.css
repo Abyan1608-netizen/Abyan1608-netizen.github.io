@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f1ece4;
+  --color-ink: #141414;
+  --color-cobalt: #2f4fd6;
+  --color-tangerine: #ff6a2b;
+  --color-sun: #ffd23f;
+  --color-mint: #35d6a0;
+  --color-bubble: #ffb6e1;
+  --color-night-950: #050d1f;
+  --color-night-900: #0a1a38;
+  --color-night-800: #0d2a47;
+  --color-teal-deep: #0f3b4c;
+  --color-amber-glow: #f7c65a;
+  --color-cream: #f6eedc;
+  --font-display: "Fraunces Variable", Georgia, serif;
+  --font-body: "Plus Jakarta Sans Variable", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tombol kaca: kontras tinggi, huruf tidak tipis */
+@layer components {
+.btn-glass {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.7rem;
+  border-radius: 999px;
+  border: 1.5px solid rgba(246, 238, 220, 0.55);
+  background: rgba(10, 26, 56, 0.55);
+  backdrop-filter: blur(10px);
+  color: var(--color-cream);
+  font-weight: 700;
+  transition: transform 0.2s, background 0.2s, border-color 0.2s;
+}
+.btn-glass:hover {
+  transform: translateY(-2px);
+  background: rgba(247, 198, 90, 0.18);
+  border-color: var(--color-amber-glow);
+}
+.btn-solid {
+  background: var(--color-amber-glow);
+  color: #1b1405;
+  border-color: var(--color-amber-glow);
+}
+.btn-solid:hover {
+  background: #ffd77a;
+}
+
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-amber-glow);
+  outline-offset: 3px;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.rise {
+  animation: rise 1.4s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee {
+  animation: marquee 38s linear infinite;
+}
