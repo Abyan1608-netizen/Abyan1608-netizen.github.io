@@ -6,7 +6,7 @@ diperbarui: 2026-11-17
 
 **CPU** adalah bagian komputer yang menjalankan perintah. Hampir semua yang kamu lakukan di komputer akhirnya diolah di sini.
 
-> **Setelah membaca bab ini, kamu bisa:** menyebutkan kepanjangan CPU yang benar, menjelaskan tugas Control Unit, ALU, dan buffer, serta membedakan kepanjangan CPU yang benar dari istilah yang salah kaprah.
+> **Setelah membaca bab ini, kamu bisa:** menyebutkan kepanjangan CPU, menjelaskan tugas Control Unit, ALU, dan buffer.
 
 ## Central Processing Unit (CPU)
 
@@ -35,18 +35,9 @@ Contoh: saat program menghitung 5 + 3 atau mengecek apakah nilai ≥ 60, ALU yan
 
 Contoh sehari-hari: video yang *buffering* sedang mengumpulkan sedikit data di depan agar tontonan tidak tersendat. Di dalam komputer ada juga **cache**, memori kecil nan cepat dekat CPU yang menyimpan data yang sering dipakai.
 
-## Kepanjangan yang sering salah
+## Kepanjangan CPU
 
-Kadang CPU disebut dengan kepanjangan yang keliru. Hanya satu yang benar:
-
-| Istilah | Keterangan |
-|---|---|
-| **Central Processing Unit** | Benar, kepanjangan CPU |
-| Communication Processing Unit | Bukan kepanjangan CPU, dan bukan istilah standar |
-| Complication Processing Unit | Salah. *Complication* berarti komplikasi, bukan komponen komputer |
-| Central Production Unit | Salah. Yang benar *Processing*, bukan *Production* |
-
-Jadi, kepanjangan CPU yang benar adalah **Central Processing Unit**.
+CPU adalah singkatan dari **Central Processing Unit**, yaitu unit pemroses pusat komputer.
 
 ## Latihan singkat
 

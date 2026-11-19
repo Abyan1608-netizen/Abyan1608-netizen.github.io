@@ -183,8 +183,6 @@ terminal: Selesai
 6. A = 9, B = 9 // 4 = 2, C = 9 % 4 = 1. Yang tampil: **2 1**.
 7. `X = 10`, `Y = X % 3` menghasilkan 1, `Z = X // 3` menghasilkan 3. Yang tampil: **1 3**.
 
-> **Tentang soal 2:** rumus 4 × π × r² yang kadang dipakai untuk "bola" sebenarnya adalah rumus **luas permukaan** bola. Rumus volume bola adalah 4/3 × π × r³. Hati-hati memilih rumus yang tepat.
-
 ## Rangkuman
 
 - **Modulus** (`%`) adalah sisa bagi. `//` di Python adalah pembagian bulat.
@@ -195,4 +193,4 @@ terminal: Selesai
 
 ---
 
-*Bab ini disusun ulang dari Modul Perkuliahan #2 "Flowchart", mata kuliah Analisis dan Desain Algoritma (PG167), Fakultas Teknologi Informasi, Universitas Budi Luhur (2019). Contoh dalam Python, penyesuaian soal, dan koreksi rumus ditambahkan untuk pembaca pemula.*
+*Bab ini disusun ulang dari Modul Perkuliahan #2 "Flowchart", mata kuliah Analisis dan Desain Algoritma (PG167), Fakultas Teknologi Informasi, Universitas Budi Luhur (2019). Contoh dalam Python, dan latihan ditambahkan untuk pembaca pemula.*

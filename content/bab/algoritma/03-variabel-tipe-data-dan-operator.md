@@ -258,4 +258,4 @@ Bandingkan keduanya: versi dengan operator logika lebih datar dan lebih mudah di
 
 ---
 
-*Bab ini disusun ulang dari Modul Perkuliahan #3 "Dasar Pemrograman", mata kuliah Analisis dan Desain Algoritma (PG167), Fakultas Teknologi Informasi, Universitas Budi Luhur (2019). Contoh dalam Python, tabel kebenaran yang telah dikoreksi, dan latihan ditambahkan untuk pembaca pemula.*
+*Bab ini disusun ulang dari Modul Perkuliahan #3 "Dasar Pemrograman", mata kuliah Analisis dan Desain Algoritma (PG167), Fakultas Teknologi Informasi, Universitas Budi Luhur (2019). Contoh dalam Python, tabel kebenaran, dan latihan ditambahkan untuk pembaca pemula.*

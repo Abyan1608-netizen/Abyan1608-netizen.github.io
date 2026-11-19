@@ -1,12 +1,12 @@
 ---
 judul: Internet, URL, dan Nama Domain
-ringkas: "Membaca alamat web: http, www, domain, ccTLD dan gTLD, plus cara menilai alamat yang benar dan yang keliru."
+ringkas: "Membaca alamat web: http, www, domain, ccTLD dan gTLD, plus cara menulis alamat dengan tepat."
 diperbarui: 2026-11-17
 ---
 
 Setiap halaman web punya alamat. Alamat itu punya aturan penulisan, dan kamu bisa mengenali bagian-bagiannya.
 
-> **Setelah membaca bab ini, kamu bisa:** membaca bagian-bagian URL, membedakan ccTLD dan gTLD, dan menilai apakah sebuah alamat web benar.
+> **Setelah membaca bab ini, kamu bisa:** membaca bagian-bagian URL, membedakan ccTLD dan gTLD, dan menulis alamat web dengan tepat.
 
 ## Bagian-bagian URL
 
@@ -77,14 +77,14 @@ Banyak negara memakai **ccTLD bertingkat** (*second level*) yang menunjukkan jen
 - **.co** = ccTLD Kolombia, populer sebagai singkatan *company*.
 - **.to** = ccTLD Tonga.
 
-## Alamat yang benar dan yang keliru
+## Menulis alamat dengan tepat
 
-| Alamat | Penilaian |
+| Contoh alamat | Penjelasan |
 |---|---|
-| `www.http://yahoo.com` | **Salah.** Urutannya terbalik. `http://` selalu di depan: `http://www.yahoo.com` |
-| `http://mail~yahoo.com` | **Salah.** Tanda `~` tidak boleh menggantikan titik. Yang benar `http://mail.yahoo.com` |
-| `www.mail.yahoo.com` | **Benar.** `mail` adalah subdomain dari yahoo.com, tanpa protokol pun masih bisa dibuka browser |
-| `http://id.yahoo.com` | **Benar.** `id` adalah subdomain Yahoo versi Indonesia |
+| `http://www.yahoo.com` | `http://` selalu di depan, baru diikuti `www` |
+| `http://mail.yahoo.com` | Pemisah bagian alamat adalah titik (`.`), bukan tanda `~` |
+| `www.mail.yahoo.com` | `mail` adalah subdomain dari yahoo.com; tanpa protokol pun masih bisa dibuka browser |
+| `http://id.yahoo.com` | `id` adalah subdomain Yahoo versi Indonesia |
 
 ## Membaca contoh alamat berita
 
