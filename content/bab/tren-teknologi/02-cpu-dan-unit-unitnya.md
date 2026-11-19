@@ -1,12 +1,12 @@
 ---
 judul: CPU dan Unit-unitnya
-ringkas: "Otak komputer: apa itu CPU, apa tugas Control Unit, ALU, dan buffer, serta singkatan keliru yang sering muncul di soal."
+ringkas: "Otak komputer: apa itu CPU, apa tugas Control Unit, ALU, dan buffer, serta istilah mirip yang sering salah disebut."
 diperbarui: 2026-11-17
 ---
 
 **CPU** adalah bagian komputer yang menjalankan perintah. Hampir semua yang kamu lakukan di komputer akhirnya diolah di sini.
 
-> **Setelah membaca bab ini, kamu bisa:** menyebutkan kepanjangan CPU yang benar, menjelaskan tugas Control Unit, ALU, dan buffer, serta mengenali istilah yang bukan bagian dari komputer.
+> **Setelah membaca bab ini, kamu bisa:** menyebutkan kepanjangan CPU yang benar, menjelaskan tugas Control Unit, ALU, dan buffer, serta membedakan kepanjangan CPU yang benar dari istilah yang salah kaprah.
 
 ## Central Processing Unit (CPU)
 
@@ -35,18 +35,18 @@ Contoh: saat program menghitung 5 + 3 atau mengecek apakah nilai ≥ 60, ALU yan
 
 Contoh sehari-hari: video yang *buffering* sedang mengumpulkan sedikit data di depan agar tontonan tidak tersendat. Di dalam komputer ada juga **cache**, memori kecil nan cepat dekat CPU yang menyimpan data yang sering dipakai.
 
-## Singkatan yang keliru
+## Kepanjangan yang sering salah
 
-Beberapa istilah di soal adalah pengecoh. Yang benar hanya satu:
+Kadang CPU disebut dengan kepanjangan yang keliru. Hanya satu yang benar:
 
 | Istilah | Keterangan |
 |---|---|
 | **Central Processing Unit** | Benar, kepanjangan CPU |
-| Communication Processing Unit | Bukan kepanjangan CPU. Istilah ini bukan istilah standar |
+| Communication Processing Unit | Bukan kepanjangan CPU, dan bukan istilah standar |
 | Complication Processing Unit | Salah. *Complication* berarti komplikasi, bukan komponen komputer |
 | Central Production Unit | Salah. Yang benar *Processing*, bukan *Production* |
 
-Jadi untuk soal pilihan: jawab **Central Processing Unit**.
+Jadi, kepanjangan CPU yang benar adalah **Central Processing Unit**.
 
 ## Latihan singkat
 

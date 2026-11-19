@@ -13,7 +13,7 @@ export default function Home() {
         homeHref="/"
         navLabel="baca"
         navHref="#jalur"
-        chatHref="#"
+        chatHref={site.saranUrl}
         chatLabel="ada saran? kabari aku"
         jobsLabel="mulai belajar"
         jobs={[

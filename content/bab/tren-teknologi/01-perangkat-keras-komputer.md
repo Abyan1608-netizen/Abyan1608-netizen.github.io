@@ -8,8 +8,6 @@ Komputer tidak bekerja sendirian. Ia ditemani banyak **perangkat keras (hardware
 
 > **Setelah membaca bab ini, kamu bisa:** menyebutkan fungsi tiap perangkat dan mengelompokkannya sebagai input, output, penyimpanan, atau komunikasi.
 
-*Catatan: beberapa perangkat di daftar soal muncul dua kali (Monitor, Modem, Data Projector, Barcode Reader). Di sini masing-masing dibahas satu kali.*
-
 ## Ringkasan cepat
 
 | Perangkat | Kelompok | Tugas singkat |

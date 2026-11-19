@@ -1,0 +1,77 @@
+# Penyunting isi web (Sveltia CMS). Hanya pemilik repo yang bisa menyimpan perubahan (login GitHub).
+backend:
+  name: github
+  repo: Abyan1608-netizen/Abyan1608-netizen.github.io
+  branch: main
+
+site_url: https://abyan1608-netizen.github.io
+display_url: https://abyan1608-netizen.github.io
+locale: id
+publish_mode: simple
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: tren-teknologi
+    label: Bab Tren Teknologi
+    label_singular: bab
+    folder: content/bab/tren-teknologi
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{fields.urutan}}-{{slug}}"
+    summary: "{{judul}}"
+    fields: &bab_fields
+      - { label: Urutan (dua angka, mis. 07), name: urutan, widget: string, required: false, hint: "Hanya untuk bab baru. Menentukan urutan bab (01, 02, 03 ...)." }
+      - { label: Judul, name: judul, widget: string }
+      - { label: Ringkasan, name: ringkas, widget: text, hint: "Satu atau dua kalimat yang tampil di daftar bab." }
+      - { label: Diperbarui, name: diperbarui, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
+      - { label: Isi, name: body, widget: markdown }
+
+  - name: algoritma
+    label: Bab Algoritma dan Dasar Pemrograman
+    label_singular: bab
+    folder: content/bab/algoritma
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{fields.urutan}}-{{slug}}"
+    summary: "{{judul}}"
+    fields: *bab_fields
+
+  - name: pengaturan
+    label: Pengaturan web
+    files:
+      - name: jalur
+        label: Urutan materi dan semester
+        file: content/jalur.json
+        fields:
+          - label: Daftar materi (dari yang termudah)
+            name: jalur
+            widget: list
+            summary: "{{nomor}}. {{judul}}"
+            fields:
+              - { label: Nomor, name: nomor, widget: number, value_type: int }
+              - { label: Judul, name: judul, widget: string }
+              - { label: Deskripsi, name: deskripsi, widget: text }
+              - { label: Tingkat, name: tingkat, widget: string }
+              - { label: Tingkat kesulitan (1-4), name: titik, widget: number, value_type: int, min: 1, max: 4 }
+              - { label: Stiker, name: stiker, widget: select, options: [book, daisy, star, bolt, heart] }
+              - { label: Warna (kode hex), name: warna, widget: string }
+              - { label: Status, name: status, widget: select, options: ["segera hadir", "sedang ditulis", "tersedia"] }
+              - { label: Alamat bacaan (mis. /baca/algoritma), name: href, widget: string, required: false }
+              - { label: Teks tombol, name: cta, widget: string, required: false }
+          - label: Semester
+            name: semester
+            widget: list
+            summary: "Semester {{no}}: {{status}}"
+            fields:
+              - { label: Nomor semester, name: no, widget: number, value_type: int }
+              - { label: Status, name: status, widget: select, options: [{ label: sedang dijalani, value: sedang }, { label: selesai, value: selesai }, { label: menyusul, value: menyusul }] }
+      - name: cerita
+        label: Cerita "kenapa aku menulis ini"
+        file: content/cerita.json
+        fields:
+          - { label: Judul, name: judul, widget: string }
+          - { label: Paragraf, name: paragraf, widget: list, field: { label: Paragraf, name: teks, widget: text } }

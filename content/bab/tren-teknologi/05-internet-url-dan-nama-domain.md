@@ -67,7 +67,7 @@ Banyak negara memakai **ccTLD bertingkat** (*second level*) yang menunjukkan jen
 | .sch.id | Sekolah |
 | .web.id | Pribadi atau web umum |
 
-## Menjawab bagian-bagian soal
+## Arti beberapa bagian alamat
 
 - **http://** = protokol HTTP, aturan pengiriman halaman web.
 - **www** = World Wide Web.
@@ -77,7 +77,7 @@ Banyak negara memakai **ccTLD bertingkat** (*second level*) yang menunjukkan jen
 - **.co** = ccTLD Kolombia, populer sebagai singkatan *company*.
 - **.to** = ccTLD Tonga.
 
-## Menilai alamat yang diberikan
+## Alamat yang benar dan yang keliru
 
 | Alamat | Penilaian |
 |---|---|
@@ -86,7 +86,7 @@ Banyak negara memakai **ccTLD bertingkat** (*second level*) yang menunjukkan jen
 | `www.mail.yahoo.com` | **Benar.** `mail` adalah subdomain dari yahoo.com, tanpa protokol pun masih bisa dibuka browser |
 | `http://id.yahoo.com` | **Benar.** `id` adalah subdomain Yahoo versi Indonesia |
 
-## Menafsirkan alamat berita
+## Membaca contoh alamat berita
 
 | Alamat | Arti |
 |---|---|

@@ -4,9 +4,9 @@ ringkas: "Kenali sistem operasi UNIX dan Xenix, basis data Oracle dan MySQL, bah
 diperbarui: 2026-11-17
 ---
 
-**Perangkat lunak (software)** adalah program yang menjalankan perangkat keras. Bab ini mengelompokkan daftar soal menurut jenisnya.
+**Perangkat lunak (software)** adalah program yang menjalankan perangkat keras. Bab ini mengelompokkan beberapa perangkat lunak terkenal menurut jenisnya.
 
-> **Setelah membaca bab ini, kamu bisa:** menyebutkan jenis dan fungsi setiap perangkat lunak yang disebut di soal.
+> **Setelah membaca bab ini, kamu bisa:** menyebutkan jenis dan fungsi setiap perangkat lunak yang dibahas di sini.
 
 ## Ringkasan
 

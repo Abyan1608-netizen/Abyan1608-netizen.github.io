@@ -1,4 +1,6 @@
-// Semua isi body ada di sini. Ubah teks, tambah bab, atau ganti status tanpa menyentuh kode tampilan.
+// Isi body. Daftar materi, semester, dan cerita kini disimpan di file JSON dan bisa diubah lewat halaman /admin.
+import jalurData from "./jalur.json";
+import ceritaData from "./cerita.json";
 
 export type Jalur = {
   nomor: number; // 1 = paling mudah
@@ -13,83 +15,9 @@ export type Jalur = {
   cta?: string;
 };
 
-export const jalur: Jalur[] = [
-  {
-    nomor: 1,
-    judul: "Tren Teknologi",
-    deskripsi: "Kenalan dengan dunia komputer: perangkat keras, CPU, satuan data, internet, nama domain, dan perangkat lunak.",
-    tingkat: "dasar",
-    titik: 1,
-    stiker: "star",
-    warna: "#35d6a0",
-    status: "sedang ditulis",
-    href: "/baca/tren-teknologi",
-    cta: "mulai baca",
-  },
-  {
-    nomor: 2,
-    judul: "Bahasa Inggris untuk TI",
-    deskripsi: "Tata bahasa dan kosakata dasar, supaya kamu bisa membaca dokumentasi dan tutorial yang hampir semuanya berbahasa Inggris.",
-    tingkat: "dasar",
-    titik: 1,
-    stiker: "daisy",
-    warna: "#ffd23f",
-    status: "segera hadir",
-  },
-  {
-    nomor: 3,
-    judul: "Logika Matematika",
-    deskripsi: "Cara berpikir yang runtut: pernyataan, tabel kebenaran, dan penalaran. Fondasi dari hampir semua yang ada di dunia pemrograman.",
-    tingkat: "dasar",
-    titik: 2,
-    stiker: "star",
-    warna: "#35d6a0",
-    status: "segera hadir",
-  },
-  {
-    nomor: 4,
-    judul: "Algoritma dan Dasar Pemrograman",
-    deskripsi: "Belajar berpikir seperti komputer: apa itu algoritma, pseudocode, dan flowchart, lalu menyusun langkah penyelesaian masalah.",
-    tingkat: "dasar",
-    titik: 2,
-    stiker: "heart",
-    warna: "#ff8a2b",
-    status: "sedang ditulis",
-    href: "/baca/algoritma",
-    cta: "mulai baca",
-  },
-  {
-    nomor: 5,
-    judul: "Dasar Pemrograman Python",
-    deskripsi: "Menulis program pertamamu, selangkah demi selangkah, dengan contoh yang bisa langsung dicoba.",
-    tingkat: "menengah awal",
-    titik: 3,
-    stiker: "bolt",
-    warna: "#ffb6e1",
-    status: "segera hadir",
-  },
-  {
-    nomor: 6,
-    judul: "Basis Data",
-    deskripsi: "Model relasional, aljabar relasional, dan SQL (DDL dan DML): cara menyimpan dan menanyai data dengan rapi.",
-    tingkat: "menengah",
-    titik: 4,
-    stiker: "book",
-    warna: "#9ab8ff",
-    status: "segera hadir",
-  },
-];
+export const jalur: Jalur[] = jalurData.jalur as Jalur[];
 
-export const semester = [
-  { no: 1, status: "sedang" },
-  { no: 2, status: "menyusul" },
-  { no: 3, status: "menyusul" },
-  { no: 4, status: "menyusul" },
-  { no: 5, status: "menyusul" },
-  { no: 6, status: "menyusul" },
-  { no: 7, status: "menyusul" },
-  { no: 8, status: "menyusul" },
-] as const;
+export const semester = jalurData.semester as { no: number; status: "sedang" | "selesai" | "menyusul" }[];
 
 export const untukSiapa = [
   "mahasiswa",
@@ -101,11 +29,4 @@ export const untukSiapa = [
 
 export const marquee = ["gratis", "dari yang termudah", "untuk siapa saja", "kuliah sambil bekerja", "belajar pelan-pelan"];
 
-export const cerita = {
-  judul: "kenapa aku menulis ini",
-  paragraf: [
-    "Aku mahasiswa Teknik Informatika kelas karyawan. Aku belum lama kuliah, dan aku tahu rasanya belajar di sela pekerjaan: waktunya sempit, tenaganya tinggal sisa.",
-    "Karena itu aku menuliskan apa yang kupelajari, dari yang paling mudah, supaya bisa dipakai siapa pun. Termasuk mereka yang belum sempat kuliah karena biaya atau keadaan.",
-    "Webnya kecil sekarang. Seperti bunga yang baru tumbuh, ia akan bertambah setiap semester.",
-  ],
-};
+export const cerita = ceritaData as { judul: string; paragraf: string[] };

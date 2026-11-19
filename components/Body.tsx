@@ -144,10 +144,12 @@ function Jejak() {
             <ol className="-mx-2 flex items-end gap-2 overflow-x-auto px-2 pb-4 md:justify-between md:gap-0">
               {semester.map((s) => (
                 <li key={s.no} className="flex min-w-[116px] flex-1 flex-col items-center gap-3 whitespace-nowrap">
-                  <Bintang nyala={s.status === "sedang"} />
+                  <Bintang nyala={s.status !== "menyusul"} />
                   <span className="text-lg font-extrabold">semester {s.no}</span>
                   {s.status === "sedang" ? (
                     <span className="rounded-full bg-paper px-3 py-1 text-base font-bold text-ink">sedang dijalani</span>
+                  ) : s.status === "selesai" ? (
+                    <span className="rounded-full bg-mint px-3 py-1 text-base font-bold text-ink">selesai</span>
                   ) : (
                     <span className="text-base font-semibold opacity-90">menyusul</span>
                   )}

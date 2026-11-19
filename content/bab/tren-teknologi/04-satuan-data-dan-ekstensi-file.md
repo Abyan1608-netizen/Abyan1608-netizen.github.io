@@ -34,7 +34,7 @@ Urutan dari kecil ke besar: **bit → byte → KB → MB → GB → TB → PB �
 
 ## Kilo Byte dan Kilo Bit
 
-Daftar soal memuat "Kilo Byte" dua kali dan "Kilo Bit" satu kali.
+Orang sering tertukar antara Kilo Byte dan Kilo Bit. Keduanya berbeda:
 
 - **Kilo Byte (KB)** = 1024 byte. Huruf B kapital.
 - **Kilo Bit (Kb atau kbit)** = 1024 bit (atau 1000 bit untuk kecepatan jaringan). Huruf b kecil.
