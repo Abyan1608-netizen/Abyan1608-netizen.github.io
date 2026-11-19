@@ -40,6 +40,17 @@ collections:
     summary: "{{judul}}"
     fields: *bab_fields
 
+  - name: logika-matematika
+    label: Bab Logika Matematika
+    label_singular: bab
+    folder: content/bab/logika-matematika
+    create: true
+    extension: md
+    format: frontmatter
+    slug: "{{fields.urutan}}-{{slug}}"
+    summary: "{{judul}}"
+    fields: *bab_fields
+
   - name: pengaturan
     label: Pengaturan web
     files:

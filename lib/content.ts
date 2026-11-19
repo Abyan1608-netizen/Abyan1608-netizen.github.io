@@ -10,6 +10,10 @@ export const mapelInfo: Record<string, { judul: string; deskripsi: string }> = {
     judul: "Tren Teknologi",
     deskripsi: "Mengenal dunia komputer dari dasar: perangkat keras, CPU, satuan data, internet, domain, dan perangkat lunak.",
   },
+  "logika-matematika": {
+    judul: "Logika Matematika",
+    deskripsi: "Cara berpikir yang runtut: pernyataan, tabel kebenaran, hukum logika, inferensi, kuantor, dan pembuktian.",
+  },
   algoritma: {
     judul: "Algoritma dan Dasar Pemrograman",
     deskripsi: "Belajar berpikir seperti komputer: dari apa itu algoritma sampai menyusun langkah penyelesaian masalah.",

@@ -30,7 +30,9 @@
       "titik": 2,
       "stiker": "star",
       "warna": "#35d6a0",
-      "status": "segera hadir"
+      "status": "sedang ditulis",
+      "href": "/baca/logika-matematika",
+      "cta": "mulai baca"
     },
     {
       "nomor": 4,
